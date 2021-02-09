@@ -12,7 +12,8 @@ return [
     | any other location as required by the application or its packages.
     |
     */
-
+    'app_assets_uri' => env('APP_URL') . '/dist/assets',
+    'app_libraries_uri' => env('APP_URL') . '/dist/libraries',
     'name' => env('APP_NAME', 'Laravel'),
 
     /*
